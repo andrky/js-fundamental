@@ -1,0 +1,35 @@
+===
+JavaScript menerapkan Case Sensitive
+
+===
+Commenting pada JS menggunakan 
+Single line : //
+Multi line  : /** */
+
+===
+Hosting merupakan kondisi dimana dapat melakukan pemanggilan (mengangkat) variable ketika variable tersebut belum di definisikan atau diinisialisasi
+Perbedaan var, let dan const dalam hoisting, var bisa melakukan hoisting sedangkan let dan const tidak
+
+===
+Scope dalam Javascript adalah konteks atau ruang lingkup di mana variabel, fungsi, dan objek tersedia dalam kode.
+var : var dapat dipanggil dari luar scope (global scope)
+let : let tidak dapat dipanggil dari luar scope (block scope)
+
+var dan let merupakan functional scope, variable tidak bisa diakses dari luar fungsi
+
+===
+String, bisa menggunakan "", '', dan ``. Jika menggunakan "" atau '' ingin menambahkan line baru bisa menggunakan \n, sedangkan jika menggunakan `` tidak perlu \n
+
+String concatenes
+"" dan '' bisa menggunakan :
+let namaDepan = "Bambang";
+let namaBelakang = "Setiawan";
+let namaLengkap = namaDepan + ' ' + namaBelakang
+
+`` bisa menggunakan :
+let namaLengkap = `${namaDepan} ${namaBelakang} 
+
+===
+Coercion
+Selain operator + maka akan dilakukan proses perhitungan. Jika menggunakan operator + maka akan dianggap concatenes
+
