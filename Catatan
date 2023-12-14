@@ -67,3 +67,10 @@ const tes = (n) => {
 const tes = n => n * n;
 
 console.log(perpangkatan(5));
+
+===
+Array Methods
+Push : Menambahkan value array di belakang
+Pop  : Mengahpus value array di belakang, dan mereturn nilai yang dihapus
+Unshift : Menambahkan value array di depan
+Shift   : Menghapus value array di depan, dan mereturn nilai yang dihapus 
