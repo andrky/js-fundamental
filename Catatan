@@ -33,3 +33,37 @@ let namaLengkap = `${namaDepan} ${namaBelakang}
 Coercion
 Selain operator + maka akan dilakukan proses perhitungan. Jika menggunakan operator + maka akan dianggap concatenes
 
+===
+Comparasion
+== (Loose Comparasion) : Hanya membandingkan value saja
+=== (Strict Comparasion) : Membandingkan value dan tipe 
+
+===
+Function
+Jika argumen tidak diberikan nilai untuk mengisi parameter, maka nilai pada parameter adalah undefined
+// Function Definition
+Tidak bisa hoisting (dipanggil) sebelum fungsi
+const perpangkatan = function (n) {
+  return n * n;
+}
+
+// Function Declaration
+Bisa boisting (dipanggil) sebelum fungsi
+function pangkat(n) {
+  return n * n;
+}
+
+function sayHello(n) {
+  alert('Halo');
+
+  return n;
+}
+
+// Arrow Function
+const tes = (n) => {
+  return n * n;
+}
+
+const tes = n => n * n;
+
+console.log(perpangkatan(5));
