@@ -1,5 +1,6 @@
 ===
 JavaScript menerapkan Case Sensitive
+Function bisa menjadi parameter
 
 ===
 Commenting pada JS menggunakan 
@@ -73,4 +74,27 @@ Array Methods
 Push : Menambahkan value array di belakang
 Pop  : Mengahpus value array di belakang, dan mereturn nilai yang dihapus
 Unshift : Menambahkan value array di depan
-Shift   : Menghapus value array di depan, dan mereturn nilai yang dihapus 
+Shift   : Menghapus value array di depan, dan mereturn nilai yang dihapus
+Slice   : Mengambil copy value dari array dan menyimpannya ke dalam variable jika ingin mereturn value yang diambil
+Splice  : Menghapus atau mengganti isi value dari array 
+ForEach : Melakukan looping data saja
+Map     : Melakukan looping data dan mereturn array baru
+Filter  : Melakukan filter value yang akan mereturn hasil filter berdasarkan kondisi yang di buat
+
+=== Object
+Jika ingin menghapus object gunakan "delete" disertai dengan keynya
+Object.keys : Akan mereturn sebuah array berisi key
+Object.assign : Akan menggabungkan 2 object, dengan menimpa object target dengan object yang akan digabungkan
+
+===
+Scope
+Global : Variable yang berada di luar fungsi
+Local  : Variable yang berada di dalam fungsi
+
+var dalam local scope bisa diakses jika melakukan aksesnya keluar fungsi, bukan ke dalam fungsi
+
+===
+Hoisting
+Hosting berlaku untuk deklarasi variable var, dan tidak berlaku pada value yang di inisialisasi. Jika melakukan re-assign bisa dilakukan hoisting
+
+Berlaku juga pada fungsi yang menggunakan variable var di dalamnya
