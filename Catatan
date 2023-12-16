@@ -98,3 +98,13 @@ Hoisting
 Hosting berlaku untuk deklarasi variable var, dan tidak berlaku pada value yang di inisialisasi. Jika melakukan re-assign bisa dilakukan hoisting
 
 Berlaku juga pada fungsi yang menggunakan variable var di dalamnya
+
+===
+EventListener
+Berfungsi untuk mentrigger sebuah fungsi ketika melakukan klik atau melakukan pengetikan
+
+Default browser ketika melakukan action adalah merefresh halaman, supaya halamn tidak di refresh bisa menggunakan e.preventDefault();
+
+append.child berfungsi untuk menambahkan element, jika pada suatu element ingin menambahkan 2 element baru, element pertama menggunakan append child dan element 2 dst menggunakan innerHTML supaya tidak menimpa children yang pertama
+
+Sebuah element input ketika disubmit akan menjadi object dari element tersebut dan akan menjadi value
