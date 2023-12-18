@@ -108,3 +108,7 @@ Default browser ketika melakukan action adalah merefresh halaman, supaya halamn 
 append.child berfungsi untuk menambahkan element, jika pada suatu element ingin menambahkan 2 element baru, element pertama menggunakan append child dan element 2 dst menggunakan innerHTML supaya tidak menimpa children yang pertama
 
 Sebuah element input ketika disubmit akan menjadi object dari element tersebut dan akan menjadi value
+
+parentElement berfungsi untuk merujuk parent pada suatu children / target
+
+indexOf dilakukan untuk melakukan filter array, jika tidak ada kecocokan akan menghasilkan -1. Jika ada kecocokan maka akan mereturn nilai index array yang di filter
