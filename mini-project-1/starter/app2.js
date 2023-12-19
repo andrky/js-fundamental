@@ -1,4 +1,3 @@
-
 // const array = [1,2,3,4,5,6];
 // array.shift();
 // console.log(array)
@@ -15,6 +14,7 @@
 // hewan.splice(2); // Menghapus monyet dst
 // hewan.splice(1, 1, "Coro"); // Mengganti value dari burung ke coro
 // hewan.splice(1, 4, "Utuk"); // Mengganti burung menjadi utuk dan menghapus monyet dan sapi / hapus hewan[2] sd hewan[4]
+// hewan.splice(1, 1) // Menghapus hewan[1] / burung
 // console.log(hewan);
 
 // Array ForEach
